@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Connection Demo</title>
+</head>
+<body>
+    <h1>Database Connection Demo</h1>
+    <form action="/connect" method="post">
+        <label for="host">Database Host:</label><br>
+        <input type="text" id="host" name="host" required><br><br>
+
+        <label for="user">Database User:</label><br>
+        <input type="text" id="user" name="user" required><br><br>
+
+        <label for="password">Database Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="database">Database Name:</label><br>
+        <input type="text" id="database" name="database" required><br><br>
+
+        <button type="submit">Connect</button>
+    </form>
+</body>
+</html>
